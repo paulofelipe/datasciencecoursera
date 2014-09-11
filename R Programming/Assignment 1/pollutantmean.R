@@ -1,5 +1,3 @@
-setwd("D:/Users/paulo.alencar/Downloads/rprog_data_specdata/") # Set working directory to specdata
-
 pollutantmean <- function(directory,pollutant,id=1:332){
  
   files <- list.files(directory)
